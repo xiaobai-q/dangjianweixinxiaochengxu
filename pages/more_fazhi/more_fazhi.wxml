@@ -1,0 +1,22 @@
+<view class="box">
+  <view class="bg" style="opacity:{{1}}">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <!--顶部标题-->
+  <view class="head">
+      <image class="img_0" src="https://636c-cloud1-3g3t2s71a5090705-1306746920.tcb.qcloud.la/homePage/1.png"></image>
+      <text class="text_0_1">法制园地</text>
+    <text class="text_0_2">当前位置：首页|法制园地</text>
+    </view>
+  <!--文件概览-->
+  <view class="body">
+    <view class="box_text" wx:for="{{fazhi}}" data-id1="{{item._id}}" bindtap="click_1">
+      <view class="t1">{{item.title}}</view>
+      <view class="t2">{{item.time}}</view>
+      <view class="t3">
+        <rich-text nodes="{{item.content}}"></rich-text>
+      </view>
+      <view class="line"></view>
+    </view>
+  </view>
+</view>

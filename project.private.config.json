@@ -1,0 +1,54 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "主页",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tiku/tiku",
+          "pathName": "pages/tiku/tiku",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "党史百年",
+          "pathName": "pages/dangshi/dangshi",
+          "query": "id=undefined",
+          "scene": null
+        },
+        {
+          "name": "pages/danxuan/danxuan",
+          "pathName": "pages/danxuan/danxuan",
+          "query": "type=%E6%96%B0%E4%B8%AD%E5%9B%BD%E5%8F%B2",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/paihang/paihang",
+          "pathName": "pages/paihang/paihang",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

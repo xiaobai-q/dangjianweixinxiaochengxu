@@ -1,0 +1,110 @@
+
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:url('https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/bg2.png') 
+  no-repeat #fff;
+  background-size:cover;
+  z-index:-1;
+  } 
+  .bg-img{
+    width : 100%;
+    height : 100%;
+  }
+  .title{
+    display: flex;
+    height: 100rpx;
+    background-color: rgb(204, 69, 35);
+    margin-bottom: 10px;
+  }
+  .left{
+    position: relative;
+    left: 1.5%;
+    padding-top: 14px;
+    font-weight: 1000;
+    color:rgb(253, 176, 61);
+  }
+  .right{
+    position: absolute;
+    right: 5%;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: small;
+    color:#faf8f8f3;
+  }
+
+.warning{
+  margin-top: 1%;
+  text-align: center;
+  color: rgb(169, 170, 170);
+}
+.textbox{
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  border-radius: 5rpx;
+}
+.textarea{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(204, 69, 35);
+  border-radius: 14rpx;
+  border: 1px solid rgb(204, 69, 35);
+}
+.textinput{
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  width: 96%;
+  margin-right: 2%;
+  background-color: #fff;
+  border-radius: 5rpx;
+}
+.btn{
+    width: 90%;
+    height: rpx;
+    line-height: 70rpx;
+    text-align: center;
+    margin-bottom: 4.5%;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #fff;
+    background-color:rgb(253, 176, 61);
+    border-radius: 10rpx;
+  }
+  .show{
+    margin-top: 10px;
+  }
+  .font{
+    color: #0a0a0a;
+    font-size: large;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    white-space: nowrap;      /*超出的空白区域不换行*/
+    overflow: hidden;         /*超出隐藏*/
+    text-overflow: ellipsis;
+  }
+  .time{
+    margin-right: 3px;
+    margin-bottom: 8px;
+    text-align: right;
+    color: #8f8c8cf3;
+  }
+  .line{
+    height: 1px;
+    padding-bottom: 0%;
+    background-color: rgba(209, 209, 209, 0.945);
+  }
+  .scroll-x-view{
+    position: absolute;
+    margin-left: 1.5%;
+    width: 96%;
+    height: 57%;
+    border-radius: 6px;
+    border: 3px solid rgb(204, 69, 35);
+  }

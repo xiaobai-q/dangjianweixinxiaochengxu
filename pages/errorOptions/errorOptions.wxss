@@ -1,0 +1,54 @@
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:url('https://636c-cloud1-3g3t2s71a5090705-1306746920.tcb.qcloud.la/logo/bg2.png') 
+  no-repeat #fff;
+  background-size:cover;
+  z-index:-1;
+  } 
+  .bg-img{
+    width : 100%;
+    height : 100%;
+  }
+.tip {
+  text-align: center;
+  color: #da2a0bf3;
+  font-weight: 600;
+  margin: 15rpx;
+  font-size: 42rpx;
+}
+.item {
+  margin: 20rpx;
+  border-radius: 8px;
+  border: rgb(192, 190, 190) 1px solid;
+  width: 710rpx;
+  height: auto;
+  display: block;
+  box-sizing:border-box;
+  left: NaNrpx;
+  top: NaNrpx
+}
+.red{
+  color: red;
+}
+.btn_root{
+  margin: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  text-align: center;
+  font-weight: 600;
+}
+
+.fail{
+  margin-top: 4%;
+  margin-left: 5%;
+}
+.true{
+  margin-left: 5%;
+  color:red;
+}

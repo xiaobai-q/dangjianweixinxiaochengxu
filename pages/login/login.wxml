@@ -1,0 +1,20 @@
+<view class="background" >
+
+  <view class="tupian">
+    <image class='image'  src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/1.png" ></image>
+  </view>
+  <view class="first">
+    <input id='name' placeholder="用户名为：admin" placeholder-class="plas" class="inputs" type="text" bindinput='usernameInput' />
+  </view>
+  <view class="second">
+    <input id='psw' placeholder="登录密码为：123" placeholder-class="plas" class="inputs" type="password"
+      bindinput='passwordInput'  />
+  </view>
+
+  <view id='btn' class="click" bindtap="login">登录</view>
+
+  <view class="cha" bindtap="enroll">
+    <text class="no">没有帐号，点我注册</text>
+  </view>
+
+</view>

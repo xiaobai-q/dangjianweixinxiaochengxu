@@ -1,0 +1,67 @@
+<!--轮播图-->
+<view class="swiperContainer">
+  <swiper class="imageContainer" bindchange="swiperChange" previous-margin="55rpx" next-margin="50rpx" interval="4000" circular autoplay>
+    <block wx:for="{{swiperList}}" wx:key="index">
+      <swiper-item class="turnItem">
+          <image class="itemImg {{index == swiperCurrent ? 'imgActive': ''}}" src="{{item.url}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 指示点的修饰 -->
+  <view class="dots">
+    <block wx:for="{{swiperList}}" wx:key="index">
+      <view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+    </block>
+  </view>
+</view>
+
+<view class="box">
+  <!--按钮-->
+  <view class="bg">
+    <view class="back">
+      <view class="v1" bindtap="click_4">
+        <view class="imgb">
+          <image class="img_2" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/homePage/b2.png"></image>
+        </view>
+        党史百年
+      </view>
+      <view class="v1" bindtap="click_5">
+        <view class="imgb">
+          <image class="img_2" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/homePage/b1.png"></image>
+        </view>
+        济医视线
+      </view>
+      <view class="v2" bindtap="click_6">
+        <view class="imgb">
+          <image class="img_2" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/homePage/b0.png"></image>
+        </view>
+        学习笔记
+      </view>
+    </view>
+  </view>
+  <!--学习路上-->
+  <view class="content">
+    <view class="head">
+      <image class="img_0" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/homePage/0.png"></image>
+      <text class="text_0_1">学习路上</text>
+      <text class="text_0_2" bindtap="click_0">更多>></text>
+    </view>
+    <!--学习路上-文本-->
+    <view class="box_text" wx:for="{{xuexi}}" data-id1="{{item._id}}" bindtap="click_1">
+      <view class="t1">{{item.title}}</view>
+      <view class="t2">{{item.time}}</view>
+    </view>
+  </view>
+  <!--法制园地-->
+  <view class="content">
+    <view class="head">
+      <image class="img_1" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/homePage/1.png"></image>
+      <text class="text_1_1">法制园地</text>
+      <text class="text_1_2" bindtap="click_2">更多>></text>
+    </view>
+    <view class="box_text" wx:for="{{fazhi}}" data-id2="{{item._id}}" bindtap="click_3">
+      <view class="t1">{{item.title}}</view>
+      <view class="t2">{{item.time}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<view class="box">
+  <view class="title">{{xuexi.title}}</view>
+    <!--分割线-->
+    <view class="line"></view>
+    <view class="subtitle">
+      <text decode="{{true}}">来源：新华网&nbsp;&nbsp;发布时间：{{xuexi.time}}</text>
+    </view>
+    <!--分割线-->
+    <view class="line"></view>  
+  <view class="content">
+    <rich-text nodes="{{xuexi.content}}"></rich-text>
+  </view>
+</view>
+  <!--分割线-->
+  <view class="bottom">
+    <view class="line"></view>
+    <view class="copyright">文章转载自:新华网</view>
+    <view class="copyright">网站链接：http://www.xinhuanet.com/</view>
+  </view>

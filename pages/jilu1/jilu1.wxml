@@ -1,0 +1,32 @@
+<view class="box">
+  <view class="bg" style="opacity:{{1}}">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <!--标题-->
+  <view class="title">
+    <view class="left"><text decode="true">|&nbsp;学习笔记</text></view>
+    <view class="right">当前位置：首页|学习笔记</view>
+  </view>
+ 
+  <!--用户记录-->
+  <scroll-view class='scroll-x-view' scroll-y='true'>
+   <!--暂无数据提醒-->
+   <view class="warning" wx:if="{{show}}">
+    <text>当前暂无笔记,请先新建</text>
+  </view>
+    <view class="show" wx:for="{{text}}" bindtap="click" data-id1="{{item._id}}">
+      <view class="font">{{item.content}}</view>
+      <view class="time">{{item.time}}</view>
+      <view class="line"></view>
+    </view>
+  </scroll-view>
+
+</view>
+ <!--输入框-->
+<view class="textbox">
+    <view class="textarea">
+      <textarea class="textinput" bindinput="textinput" placeholder="记录一下你的学习收获吧~" placeholder-style="color:#888888; font-size:30rpx;"
+        cols="20" rows="10" maxlength="-1" fixed="true"></textarea>
+        <view class="btn" bindtap="send">新建</view>
+    </view>
+  </view>

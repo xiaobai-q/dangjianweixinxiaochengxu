@@ -1,0 +1,23 @@
+<view class="box">
+  <view class="title1">
+    <view class="left"><text decode="true">|&nbsp;济医视线</text></view>
+    <view class="right">「献礼建党百年」</view>
+  </view>
+  <view class="title2">{{jiyi.title}}</view>
+    <!--分割线-->
+    <view class="line"></view>
+    <view class="subtitle">
+      <text decode="{{true}}">来源:济宁医学院官网&nbsp;&nbsp;发布时间：{{jiyi.time}}</text>
+    </view>
+    <!--分割线-->
+    <view class="line"></view>  
+  <view class="content">
+    <rich-text nodes="{{jiyi.content}}"></rich-text>
+  </view>
+</view>
+  <!--分割线-->
+  <view class="bottom">
+    <view class="line"></view>
+    <view class="copyright">文章转载自:济宁医学院官网</view>
+    <view class="copyright">网站链接：https://www.jnmc.edu.cn</view>
+  </view>

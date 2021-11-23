@@ -1,0 +1,18 @@
+<!--背景图片-->
+  <view class="bg" style="opacity:{{1}}">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <!--标题-->
+  <view class="title">
+    <view class="left"><text decode="true">|&nbsp;济医视线</text></view>
+    <view class="right">当前位置：首页|济医视线</view>
+  </view>
+<view class="box">
+  <!--文章-->
+  <view class="body" wx:for="{{jiyi}}" bindtap="click" data-id1="{{item._id}}">
+    <view class="t1"><text decode="true">&nbsp;·&nbsp;{{item.title}}</text></view>
+    <view class="t2">{{item.time}}</view>
+    <view class="line"></view>
+  </view>
+  <view></view>
+</view>

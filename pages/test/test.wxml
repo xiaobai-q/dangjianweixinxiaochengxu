@@ -1,0 +1,3 @@
+  <view class="bottomtab" bindtap="first_select">
+    <text class="bottomText" bindtap='gotiku'>开始答题</text>
+  </view>

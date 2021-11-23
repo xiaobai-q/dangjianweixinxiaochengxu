@@ -1,0 +1,24 @@
+<view class="box">
+  <view class="title1">
+    <view class="left"><text decode="true">|&nbsp;党史百年</text></view>
+    <view class="right">「重温光辉历程」</view>
+  </view>
+  <view class="title2">{{dangshi.title}}</view>
+    <!--分割线-->
+    <view class="line"></view>
+    <view class="subtitle">
+      <text decode="{{true}}">来源:{{dangshi.from}}&nbsp;&nbsp;发布时间：{{dangshi.time}}</text>
+    </view>
+    <!--分割线-->
+    <view class="line"></view>  
+  <view class="content">
+    <rich-text nodes="{{dangshi.content}}"></rich-text>
+  </view>
+</view>
+  <!--分割线-->
+  <view class="bottom">
+    <view class="line"></view>
+    <view class="copyright">文章转载自:党史学习教育官方网站</view>
+    <view class="copyright">网站链接：http://dangshi.people.com.cn</view>
+  </view>
+

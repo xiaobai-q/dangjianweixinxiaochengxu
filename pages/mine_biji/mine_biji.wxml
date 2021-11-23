@@ -1,0 +1,19 @@
+<view class="box">
+  <view class="bg" style="opacity:{{1}}">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <!--标题-->
+  <view class="title">
+    <view class="left"><text decode="true">|&nbsp;学习笔记</text></view>
+    <view class="right">当前位置：我的|学习笔记</view>
+  </view>
+   <!--暂无数据提醒-->
+   <view class="warning" wx:if="{{show}}">
+    <text>当前暂无笔记,请先新建</text>
+  </view>
+    <view class="show" wx:for="{{text}}" bindtap="click" data-id1="{{item._id}}">
+      <view class="font">{{item.content}}</view>
+      <view class="time">{{item.time}}</view>
+      <view class="line"></view>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+<view class="box">
+  <view class="bg" style="opacity:{{1}}">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <view class="title">
+    <view class="delete" bindtap="delete">删除</view>
+    <view class="right">创建时间：{{text.time}}</view>
+  </view>
+  <view class="body">
+    <view class="text"><rich-text nodes="{{text.content}}"></rich-text></view>
+  </view>
+</view>

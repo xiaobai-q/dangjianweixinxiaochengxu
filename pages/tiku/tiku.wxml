@@ -1,0 +1,70 @@
+<view class='box'>
+<!--背景图片-->
+  <view class="bg" style="opacity:{{1}}">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+<!--item-->
+  <view class='item' >
+    <view class="left">
+      <image class="tupian" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/tiku/8.png"></image>
+    </view>
+    <view class="right">
+      <view class="r_top"  style="">
+        <text>"建党百年"—新中国史知识竞赛</text>
+      </view>
+    <view class="bottomtab" >
+      <text class="bottomText" bindtap="goxin">开始答题</text>
+    </view>
+      <view class="r_bottom">开始时间：2021/8/19-2021/12/30</view>
+    </view>
+  </view>
+  <view class="line"></view>
+<!--item-->
+  <view class='item' >
+    <view class="left">
+      <image class="tupian" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/tiku/7.png"></image>
+    </view>
+    <view class="right">
+      <view class="r_top"  style="">
+        <text>"学史强国"—改革开放史知识竞赛</text>
+      </view>
+      <view class="bottomtab" >
+      <text class="bottomText" bindtap="gogai">开始答题</text>
+    </view>
+      <view class="r_bottom">开始时间：2021/8/19-2021/12/30</view>
+    </view>
+  </view>
+  <view class="line"></view>
+<!--item-->
+  <view class='item' >
+    <view class="left">
+      <image class="tupian" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/tiku/10.png"></image>
+    </view>
+    <view class="right" >
+      <view class="r_top"  style="">
+        <text>"不忘初心"—学党史知识竞赛</text>
+      </view>
+      <view class="bottomtab" >
+      <text class="bottomText" bindtap="godang">开始答题</text>
+    </view>
+      <view class="r_bottom">开始时间：2021/8/19-2021/12/30</view>
+    </view>
+  </view>
+  <view class="line"></view>
+<!--item-->
+  <view class='item' >
+    <view class="left">
+      <image class="tupian" src="https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/tiku/5.png"></image>
+    </view>
+    <view class="right" >
+      <view class="r_top"  style="">
+        <text>"砥砺前行"—社会主义发展史</text>
+      </view>
+      <view class="bottomtab" >
+      <text class="bottomText" bindtap="goshe">开始答题</text>
+    </view>
+      <view class="r_bottom">开始时间：2021/8/19-2021/12/30</view>
+    </view>
+  </view>
+  <view class="line"></view>
+</view>

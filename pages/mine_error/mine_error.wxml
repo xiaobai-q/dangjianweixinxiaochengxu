@@ -1,0 +1,23 @@
+<view class="box">
+  <view class="bg" style="opacity:{{1}}">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <!--标题-->
+  <view class="title">
+    <view class="left"><text decode="true">|&nbsp;我的错题</text></view>
+    <view class="right">当前位置：我的|我的错题</view>
+  </view>
+   <!--暂无数据提醒-->
+   <view class="warning" wx:if="{{show}}">
+    <text>当前暂无记录</text>
+  </view>
+  <!--后台数据存在-->
+  <view class="tips" wx:if="{{show1}}">
+    <view class="t1">请根据题目完成时间选择您要查看的错题</view>
+    <view class="line"></view>
+    <view class="show" wx:for="{{mistake}}" bindtap="click" data-time1="{{item.time}}">
+      <view class="time">·完成时间：{{item.time}}</view>
+      <view class="line"></view>
+    </view>
+  </view>
+</view>

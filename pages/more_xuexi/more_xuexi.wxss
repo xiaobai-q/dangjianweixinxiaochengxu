@@ -1,0 +1,73 @@
+page{
+  background-color: #fff;
+}
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:url('https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/bg2.png') 
+  no-repeat #fff;
+  background-size:cover;
+  z-index:-1;
+  } 
+  .bg-img{
+    width : 100%;
+    height : 100%;
+  }
+.head{
+  display: flex;
+  height: 80rpx;
+  /*渐变色背景*/
+  margin-bottom: 10px;
+  background: -webkit-linear-gradient(top,#fc9331,#ecddc7f3,white)
+}
+.img_0{
+  position: relative;
+  height: 45px;
+  width:50px ;
+  padding-bottom: 30%;
+}
+.text_0_1{
+  position: relative;
+  padding-top: 20rpx;
+  font-weight: 1000;
+  color:black;
+}
+.text_0_2{
+  position: absolute;
+  right: 5%;
+  padding-top: 12px;
+  font-weight: 400;
+  font-size: small;
+  color:#535151f3;
+}
+.line{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 3rpx;
+  background-color:#acaaaaf3;
+}
+.t1{
+  font-size:10000;
+  font-weight: 1000;
+  white-space: nowrap; /*超出的空白区域不换行*/
+  overflow: hidden; /*超出隐藏*/
+  text-overflow: ellipsis;
+}
+.t2{
+  text-align: right;
+  font-size: small;
+  font-weight: 500;
+  color: #616161;
+}
+.t3{
+  font-size: small;
+  font-weight: 500;
+  color: #616161;
+  display: -webkit-box;             /*将对象转为弹性盒模型展示*/
+  -webkit-box-orient: vertical;     /*设置弹性盒模型子元素的排列方式*/
+  -webkit-line-clamp: 3;          /*限制文本行数*/
+  overflow: hidden;
+}

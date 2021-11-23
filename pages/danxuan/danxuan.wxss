@@ -1,0 +1,111 @@
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:url('https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/bg2.png') 
+  no-repeat #fff;
+  background-size:cover;
+  z-index:-1;
+  } 
+  .bg-img{
+    width : 100%;
+    height : 100%;
+  }
+.tip {
+  text-align: center;
+  color: #da2a0bf3;
+  font-weight: 600;
+  margin: 15rpx;
+  font-size: 42rpx;
+}
+.item {
+  margin: 20rpx;
+  border-radius: 8px;
+  border: rgb(192, 190, 190) 1px solid;
+  width: 710rpx;
+  height: auto;
+  display: block;
+  box-sizing:border-box;
+  left: NaNrpx;
+  top: NaNrpx
+}
+.pro {
+  text-align:center ;
+  border-radius: 10px;
+}
+
+.bottom {
+  position: absolute;
+  top:25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+
+.top {
+  position: absolute;
+  background-color: rgb(160, 52, 52);
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left {
+  margin-top: 7%;
+  width: 400rpx;
+  padding-left: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  justify-items: space-around;
+}
+.right {
+  margin-top: 5%;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.score {
+  font-size: larger;
+  margin: auto;
+  color: red;
+  font-size:xx-large;
+}
+.r_top {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 200rpx;
+  height: 130rpx;
+}
+.img {
+  width: 180rpx;
+  height: 70rpx;
+}
+.tab{
+  text-align: center;
+  line-height: 70rpx;
+  color: #fff;
+  border-radius: 8%;
+  border: 1px solid orange;
+  background-color: orange;
+  height: 70rpx;
+  width: 150rpx;
+  margin: 2% 2% 2% 2%;
+}
+.title{
+  text-align: center;
+  font-weight: 600;
+}

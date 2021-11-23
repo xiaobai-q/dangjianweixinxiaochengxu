@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/enroll/enroll",
+    "pages/home/home",
+    "pages/test/test",
+    "pages/danxuan/danxuan",
+    "pages/tiku/tiku",
+    "pages/errorOptions/errorOptions",
+    "pages/mine/mine",
+    "pages/xuexilushang/xuexilushang",
+    "pages/fazhiyuandi/fazhiyuandi",
+    "pages/more_xuexi/more_xuexi",
+    "pages/more_fazhi/more_fazhi",
+    "pages/dangshi/dangshi",
+    "pages/dangshi_eassy/dangshi_eassy",
+    "pages/jiyi/jiyi",
+    "pages/jiyi_eassy/jiyi_eassy",
+    "pages/jilu1/jilu1",
+    "pages/jilu2/jilu2",
+    "pages/mine_biji/mine_biji",
+    "pages/mine_biji2/mine_biji2",
+    "pages/mine_error/mine_error",
+    "pages/paihang/paihang"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF6347",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#f4432c",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "icon/tabBar/home.png",
+        "selectedIconPath": "icon/tabBar/home1.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "知识竞赛",
+        "iconPath": "icon/tabBar/test.png",
+        "selectedIconPath": "icon/tabBar/test1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/tabBar/mine.png",
+        "selectedIconPath": "icon/tabBar/mine1.png"
+      }
+    ]
+  }
+}

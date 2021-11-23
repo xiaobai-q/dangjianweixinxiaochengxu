@@ -1,0 +1,32 @@
+
+page{
+  background-image: url("https://636c-cloud2-9g3l5j7l21abb9a1-1307223493.tcb.qcloud.la/logo/bg1.png");
+  background-size: 100% 100%;
+  background-color: white;
+  width: 750rpx;
+  height: 1200rpx;
+  position: fixed;
+  bottom: 0rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  align-items: center;
+}
+.bottomtab{
+  margin-top: 950rpx;
+  border-radius: 100rpx;
+  background-color: rgba(241, 162, 13, 0.952);
+  width: 300rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomText{
+  font-size: 35rpx;
+  color: white;
+  text-align: center;
+}
